@@ -29,7 +29,7 @@ public:
   void init()
   {
 
-    BLEDevice::init("WardSensor");
+    BLEDevice::init("Feeler");
     pAdvertising = BLEDevice::getAdvertising();
     pAdvertising->setScanResponse(true);
     pAdvertising->setMinPreferred(0x06); // functions that help with iPhone connections issue
