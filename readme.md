@@ -1,7 +1,7 @@
 # Feeler - Bluetooth advertiser for [bloomy.space](https://bloomy.space)
 Project uses xiaomi advertisment protocol.
 
-## CO2+Temperature sensor for ~ 33$
+## CO2 + Temperature sensor for ~ 25$
 
 [MH-Z19Z](https://s.click.aliexpress.com/e/_AsBNzN)
 
