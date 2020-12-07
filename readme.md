@@ -1,4 +1,4 @@
-# Feeler - Bluetooth advertiser for [Bloomy.space](https://bloomy.space)
+# Feeler - Bluetooth advertiser for [bloomy.space](https://bloomy.space)
 Project uses xiaomi advertisment protocol.
 
 ## CO2+Temperature sensor for ~ 33$
