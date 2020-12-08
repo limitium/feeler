@@ -3,6 +3,8 @@ Project uses xiaomi advertisment protocol.
 
 ## CO2 + Temperature sensor for ~ 25$
 
+### Parts
+
 [MH-Z19Z](https://s.click.aliexpress.com/e/_AsBNzN)
 
 [![MH-Z19Z](https://raw.githubusercontent.com/limitium/feeler/master/docs/mhz19.PNG "MH-Z19Z")](https://s.click.aliexpress.com/e/_AsBNzN)
@@ -15,5 +17,11 @@ Project uses xiaomi advertisment protocol.
 
 [![Female to female wire](https://raw.githubusercontent.com/limitium/feeler/master/docs/wires.PNG "Female to female wire")](https://s.click.aliexpress.com/e/_APb331)
 
+### Schema
 
+TBD 
+
+### Instructions
+
+TBD
 
