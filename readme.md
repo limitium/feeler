@@ -19,9 +19,9 @@ Project uses xiaomi advertisment protocol.
 
 ### Schema
 
-TBD 
-
+![Schema](https://raw.githubusercontent.com/limitium/feeler/master/docs/schema.PNG "Schema")
+ 
 ### Instructions
 
-TBD
+Build and upload as a regular [PlatformIO](https://platformio.org/install/cli) project
 
