@@ -93,13 +93,62 @@ public:
         delay(100);
         pAdvertising->stop();
     }
+    void advertTemperature(uint16_t dataValue)
+    {
+        advert(hexToUint("04") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertHumidity(uint16_t dataValue)
+    {
+        advert(hexToUint("06") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertIlluminance(uint16_t dataValue)
+    {
+        advert(hexToUint("07") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertMoisture(uint16_t dataValue)
+    {
+        advert(hexToUint("08") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertFertility(uint16_t dataValue)
+    {
+        advert(hexToUint("09") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertFormaldehyde(uint16_t dataValue)
+    {
+        advert(hexToUint("10") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertSwitch(uint16_t dataValue)
+    {
+        advert(hexToUint("12") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertConsumable(uint16_t dataValue)
+    {
+        advert(hexToUint("13") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertBattery(uint16_t dataValue)
+    {
+        advert(hexToUint("0a") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertConcentration(uint16_t dataValue)
+    {
+        advert(hexToUint("ff") << 8 | hexToUint("10"), dataValue);
+    }
+    void advertVolume(uint16_t dataValue)
+    {
+        advert(hexToUint("ff") << 8 | hexToUint("fa"), dataValue);
+    }
+    void advertWeight(uint16_t dataValue)
+    {
+        advert(hexToUint("ff") << 8 | hexToUint("fb"), dataValue);
+    }
+    void advertPH(uint16_t dataValue)
+    {
+        advert(hexToUint("ff") << 8 | hexToUint("fc"), dataValue);
+    }
     void advertCO2(uint16_t dataValue)
     {
         advert(hexToUint("ff") << 8 | hexToUint("fe"), dataValue);
     }
-    void advertT(uint16_t dataValue)
-    {
-        advert(hexToUint("04") << 8 | hexToUint("10"), dataValue);
-    }
+    
 };
 }; // namespace Feeler

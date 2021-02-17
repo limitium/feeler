@@ -49,7 +49,7 @@ public:
                 Serial.print("Temperature (C): ");
                 Serial.println(temp);
 
-                feeler->advertT(temp * 10);
+                feeler->advertTemperature(temp * 10);
             }
         }
     }
